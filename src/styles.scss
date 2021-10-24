@@ -3,3 +3,18 @@ body {
     padding: 0;
 }
 
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .logo, .text {
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    .x {
+        max-width: 50px;
+        margin-top: 50px;
+    }
+}
