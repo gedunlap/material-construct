@@ -7,39 +7,54 @@ body {
 .App {
     display: flex;
     justify-content: center;
+    font-family: 'IBM Plex Mono', monospace;
+
+    
 
     .container {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 80%;
+        width: 90%;
         background-color: white;
         height: 100vh;
 
 
         .logo {
             width: 50%;
-            margin-top: 50px;
         }
 
         .text1 {
-            width: 70%;
-            margin-top: 50px;
+            width: 50%;
             font-size: 20px;
-            font-family: helvetica;
+            margin-top: 50px;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            border: solid black 2px;
+            border-radius: 20px;
+            padding: 10px 20px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: solid black 2px;
+            border-radius: 20px;
+            padding: 10px 20px;
         }
 
         .text2 {
-            width: 70%;
-            margin-top: 10px;
+            width: 50%;
             font-size: 20px;
-            font-family: helvetica;
+            margin-bottom: 50px;
         }
 
         .x {
-            max-width: 500px;
-            margin-top: 50px;
+            max-width: 200px;
         }
     }
 }
