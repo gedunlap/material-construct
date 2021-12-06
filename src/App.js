@@ -1,5 +1,4 @@
 import './App.css';
-import { Link } from 'react-router-dom'
 
 function App() {
   return (
@@ -7,8 +6,9 @@ function App() {
       <div className="container">
         <img className="logo" src="https://i.imgur.com/t3cbqzd.png" alt="Material Tampa" />
         <p className="text1">Our site is currently under construction</p>
-        <Link to=""><button>Book An Appointment</button></Link>
-        <p className="text2">And check us out here later</p>
+        <a href="" target="_blank"><button>Book An Appointment</button></a>
+        <p className="text2">Check us out on Instagram</p>
+        <a href="https://www.instagram.com/material.tpa/" target="_blank"><img className="ig" src="https://i.imgur.com/w87mdKt.png" alt="instagram logo" /></a>
         <img className="x" src="https://i.imgur.com/o2Q2xAa.png" alt="Scissors" />
       </div>
     </div>
