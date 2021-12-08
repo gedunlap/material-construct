@@ -8,7 +8,7 @@ function App() {
         <p className="text1">Our site is currently under construction</p>
         {/* <a href="" target="_blank"><button>Book An Appointment</button></a> */}
         <p className="text2">Check us out on Instagram</p>
-        <a href="https://www.instagram.com/material.tpa/" target="_blank"><img className="ig" src="https://i.imgur.com/w87mdKt.png" alt="instagram logo" /></a>
+        <a href="https://www.instagram.com/material.tpa/" target="_blank" rel="noreferrer"><img className="ig" src="https://i.imgur.com/w87mdKt.png" alt="instagram logo" /></a>
         <img className="x" src="https://i.imgur.com/o2Q2xAa.png" alt="Scissors" />
       </div>
     </div>
