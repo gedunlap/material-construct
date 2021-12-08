@@ -58,6 +58,7 @@ body {
             margin: 20px 0 50px 0;
             padding: 10px;
             border: solid white;
+            border-radius: 20px;
         }
 
         .ig:hover {
@@ -65,8 +66,9 @@ body {
             border-radius: 20px;
         }
 
-        .x {
-            max-width: 200px;
+        .m {
+            max-width: 80px;
+            border-radius: 40px;
         }
     }
 }
@@ -88,9 +90,6 @@ body {
             }
             .ig {
                 margin: 10px 0 20px 0;
-            }
-            .x {
-                max-width: 150px;
             }
         }
     }
