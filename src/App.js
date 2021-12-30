@@ -10,7 +10,7 @@ function App() {
           <button>Book An Appointment</button>
         </a>
         <p className="text2">Check us out on Instagram</p>
-        <a href="https://www.instagram.com/material.tpa/" target="_blank" rel="noreferrer"><img className="ig" src="https://i.imgur.com/w87mdKt.png" alt="instagram logo" /></a>
+        <a href="https://www.instagram.com/materialtampa/" target="_blank" rel="noreferrer"><img className="ig" src="https://i.imgur.com/w87mdKt.png" alt="instagram logo" /></a>
         <img className="m" src="https://i.imgur.com/w6tXxGd.jpg" alt="Scissors" />
       </div>
     </div>
