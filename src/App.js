@@ -11,7 +11,16 @@ function App() {
         </a>
         <p className="text2">Check us out on Instagram</p>
         <a href="https://www.instagram.com/materialtampa/" target="_blank" rel="noreferrer"><img className="ig" src="https://i.imgur.com/w87mdKt.png" alt="instagram logo" /></a>
-        <img className="m" src="https://i.imgur.com/w6tXxGd.jpg" alt="Scissors" />
+        <p>Contact us by email</p>
+        <a href="mailto: contact@materialtampa.com" target="_blank" rel="noreferrer"><img className='email' src="https://i.imgur.com/CtrafJJ.png" alt="email-icon" /></a>
+        <img className="m" src="https://i.imgur.com/w6tXxGd.jpg" alt="logo" />
+        <a className='address-link'  href="http://maps.google.com/?q=2502 N. Howard Ave Suite B Tampa, FL 33607">
+          <p className='address'>
+            2502 N. Howard Ave Suite B 
+            <br />
+            Tampa, FL 33607
+          </p>
+        </a>
       </div>
     </div>
   );
