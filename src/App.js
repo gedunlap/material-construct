@@ -14,13 +14,11 @@ function App() {
         <p>Contact us by email</p>
         <a href="mailto: contact@materialtampa.com" target="_blank" rel="noreferrer"><img className='email' src="https://i.imgur.com/CtrafJJ.png" alt="email-icon" /></a>
         <img className="m" src="https://i.imgur.com/w6tXxGd.jpg" alt="logo" />
-        <a className='address-link'  href="http://maps.google.com/?q=2502 N. Howard Ave Suite B Tampa, FL 33607">
-          <p className='address'>
-            2502 N. Howard Ave Suite B 
-            <br />
-            Tampa, FL 33607
-          </p>
-        </a>
+        <p className='address'>
+          2502 N. Howard Ave Suite B 
+          <br />
+          Tampa, FL 33607
+        </p>
       </div>
     </div>
   );

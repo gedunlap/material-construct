@@ -85,16 +85,13 @@ body {
             border-radius: 40px;
         }
 
-        .address-link {
+        .address {
+            color: black;
+            margin-bottom: 50px;
             font-size: 12px;
             width: 50%;
-            margin-top: 30px;
+            margin-top: 50px;
             font-family: 'IBM Plex Mono', monospace;
-
-            .address {
-                color: black;
-                margin-bottom: 50px;
-            }
         }
     }
 }
@@ -120,12 +117,9 @@ body {
                 margin: 10px 0 20px 0;
             }
 
-            .address-link {
-                .address {
-                    margin-bottom: 0;
-                }
-            }
-            
+            .address {
+                margin-bottom: 0;
+            }            
         }
     }
   }
