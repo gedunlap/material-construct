@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <div className='textpage'>
         <img className='textlogo' src="https://i.imgur.com/Yan6SO9.jpg" alt="logo" />
-        <h1><b>Price Adjustments</b></h1>
+        <h2><b>New Year Update</b></h2>
         <p>Thank you to everyone for an amazing 2022! We truly appreciate the love, loyalty and support you all have shown us throughout the year. 
         <br/>
         <br/>
