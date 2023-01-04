@@ -5,8 +5,8 @@ body {
 }
 
 .gif{
-    padding: 15% 0 5% 0;
-    width: 98%;
+    padding: 15% 0;
+    width: 98vw;
 }
 
 // button{
@@ -40,6 +40,13 @@ body {
 
     p{
         width: 50%;
+    }
+
+    @media only screen and (min-width: 500px) {
+        .gif{
+            padding: 5% 0;
+            width: 50%;
+        }
     }
 
     @media only screen and (max-width: 900px){
